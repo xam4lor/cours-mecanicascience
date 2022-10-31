@@ -4,7 +4,7 @@
   "description": "Lectures of MecanicaScience",
   "main": "index.js",
   "scripts": {
-    "watch": "node index.js",
+    "watch": "nodemon ./index.js",
     "build": "cd public/ && ng build"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "dependencies": {
     "body-parser": "^1.20.1",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
