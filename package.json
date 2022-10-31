@@ -1,0 +1,24 @@
+{
+  "name": "cours-mecanicascience",
+  "version": "1.0.0",
+  "description": "Lectures of MecanicaScience",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node index.js",
+    "build": "cd public/ && ng build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mecanicascience/Cours.git"
+  },
+  "author": "MecanicaScience",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mecanicascience/Cours/issues"
+  },
+  "homepage": "https://github.com/mecanicascience/Cours#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
